@@ -7,12 +7,10 @@ interface ComputerFactory_03 {
 }
 //工厂实现
 class Factory implements ComputerFactory_03{
-
     @Override
     public Computer createLenvoComputer() {
         return new LenovoComputer();
     }
-
     @Override
     public Computer createHpComputer() {
         return new HPComputer();
